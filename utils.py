@@ -5,6 +5,7 @@ from io import BytesIO
 import asyncio
 import aiohttp
 import json
+import streamlit as st
 
 # Função para transformar df em excel
 def to_excel(df):
